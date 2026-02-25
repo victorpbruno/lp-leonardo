@@ -2,6 +2,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, MapPin } from "lucide-react";
+import drLeoHero from "@/assets/dr-leo-hero.png";
 
 const HeroSection = () => {
   return (
@@ -47,17 +48,10 @@ const HeroSection = () => {
           </div>
 
           {/* Right - Doctor placeholder */}
-          <div className="hidden lg:flex justify-center">
+            <div className="hidden lg:flex justify-center">
             <div className="relative w-[400px] h-[500px] rounded-2xl overflow-hidden border-2 border-gold/20 shadow-2xl shadow-gold/10">
               <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/80 via-transparent to-transparent z-10" />
-              <div className="w-full h-full bg-navy-light flex items-center justify-center">
-                <div className="text-center text-white/30 font-sans">
-                  <div className="w-24 h-24 rounded-full bg-white/10 mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-4xl">👨‍⚕️</span>
-                  </div>
-                  <p className="text-sm">Foto do Dr. Leo Anhesini</p>
-                </div>
-              </div>
+              <img src={drLeoHero} alt="Dr. Leo Anhesini — Médico Nutrólogo em Araraquara" className="w-full h-full object-cover object-top" />
               <div className="absolute bottom-6 left-6 right-6 z-20">
                 <p className="text-gold font-serif text-xl font-semibold">Dr. Leo Anhesini</p>
                 <p className="text-white/60 text-sm font-sans">Médico Nutrólogo</p>
