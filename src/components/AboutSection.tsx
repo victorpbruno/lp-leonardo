@@ -1,6 +1,7 @@
 import { WHATSAPP_URL } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Award, Heart, Microscope } from "lucide-react";
+import drLeoAbout from "@/assets/dr-leo-about.png";
 
 const highlights = [
   { icon: Award, label: "Formação de excelência" },
@@ -17,13 +18,8 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Photo placeholder */}
           <div className="flex justify-center">
-            <div className="w-[350px] h-[420px] rounded-2xl bg-navy-light border border-gold/15 flex items-center justify-center shadow-xl">
-              <div className="text-center text-white/30 font-sans">
-                <div className="w-20 h-20 rounded-full bg-white/10 mx-auto mb-3 flex items-center justify-center">
-                  <span className="text-3xl">👨‍⚕️</span>
-                </div>
-                <p className="text-sm">Foto profissional</p>
-              </div>
+            <div className="w-[350px] h-[420px] rounded-2xl overflow-hidden border border-gold/15 shadow-xl">
+              <img src={drLeoAbout} alt="Dr. Leo Anhesini no consultório" className="w-full h-full object-cover object-top" />
             </div>
           </div>
 
