@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <p className="font-serif text-xl font-semibold text-white">Dr. Leo Anhesini</p>
-            <p className="text-white/40 text-sm font-sans mt-1">Médico Nutrólogo | CRM/RQE — A informar</p>
+            <p className="text-white/40 text-sm font-sans mt-1">Médico Nutrólogo | CRM 111027</p>
             <p className="text-white/30 text-sm font-sans mt-1">Araraquara - SP</p>
           </div>
 
@@ -25,7 +25,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/dr.leo.anhesini/"
               className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-gold/10 hover:border-gold/30 transition-all"
               aria-label="Instagram"
             >

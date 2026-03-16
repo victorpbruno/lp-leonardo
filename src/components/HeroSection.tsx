@@ -48,8 +48,8 @@ const HeroSection = () => {
           </div>
 
           {/* Right - Doctor placeholder */}
-            <div className="hidden lg:flex justify-center">
-            <div className="relative w-[400px] h-[500px] rounded-2xl overflow-hidden border-2 border-gold/20 shadow-2xl shadow-gold/10">
+            <div className="flex justify-center">
+            <div className="relative w-[280px] h-[350px] lg:w-[400px] lg:h-[500px] rounded-2xl overflow-hidden border-2 border-gold/20 shadow-2xl shadow-gold/10">
               <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/80 via-transparent to-transparent z-10" />
               <img src={drLeoHero} alt="Dr. Leo Anhesini — Médico Nutrólogo em Araraquara" className="w-full h-full object-cover object-top" />
               <div className="absolute bottom-6 left-6 right-6 z-20">
