@@ -8,21 +8,26 @@ import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
+import ConsultationModal from "@/components/ConsultationModal";
+import { ConsultationModalProvider } from "@/hooks/use-consultation-modal";
 
 const Index = () => {
   return (
-    <main>
-      <HeroSection />
-      <PainPointsSection />
-      <AboutSection />
-      <TreatmentsSection />
-      <DifferentialsSection />
-      <TestimonialsSection />
-      <FAQSection />
-      <CTASection />
-      <Footer />
-      <WhatsAppFloat />
-    </main>
+    <ConsultationModalProvider>
+      <main>
+        <HeroSection />
+        <PainPointsSection />
+        <AboutSection />
+        <TreatmentsSection />
+        <DifferentialsSection />
+        <TestimonialsSection />
+        <FAQSection />
+        <CTASection />
+        <Footer />
+        <WhatsAppFloat />
+        <ConsultationModal />
+      </main>
+    </ConsultationModalProvider>
   );
 };
 

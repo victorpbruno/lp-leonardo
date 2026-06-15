@@ -1,7 +1,7 @@
-import { WHATSAPP_URL } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Award, Heart, Microscope } from "lucide-react";
 import drLeoAbout from "@/assets/dr-leo-about.png";
+import { useConsultationModal } from "@/hooks/use-consultation-modal";
 
 const highlights = [
   { icon: Award, label: "Formação de excelência" },
@@ -10,6 +10,7 @@ const highlights = [
 ];
 
 const AboutSection = () => {
+  const { openModal } = useConsultationModal();
   return (
     <section className="py-20 lg:py-28 bg-navy-dark relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_hsl(42_65%_55%_/_0.06),_transparent_60%)]" />
@@ -47,13 +48,11 @@ const AboutSection = () => {
             </div>
 
             <Button
-              asChild
+              onClick={openModal}
               className="bg-gold hover:bg-gold-dark text-navy-dark font-semibold font-sans rounded-full px-8 py-6 shadow-lg shadow-gold/20"
             >
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="w-5 h-5 mr-2" />
-                Agende com o Dr. Leo
-              </a>
+              <MessageCircle className="w-5 h-5 mr-2" />
+              Agende com o Dr. Leo
             </Button>
           </div>
         </div>

@@ -1,8 +1,9 @@
-import { WHATSAPP_URL } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, MapPin, Clock } from "lucide-react";
+import { useConsultationModal } from "@/hooks/use-consultation-modal";
 
 const CTASection = () => {
+  const { openModal } = useConsultationModal();
   return (
     <section className="py-20 lg:py-28 bg-navy-dark relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-navy-dark via-navy to-navy-dark" />
@@ -20,14 +21,12 @@ const CTASection = () => {
           </p>
 
           <Button
-            asChild
             size="lg"
+            onClick={openModal}
             className="bg-gold hover:bg-gold-dark text-navy-dark font-bold font-sans text-lg px-10 py-7 rounded-full shadow-xl shadow-gold/25 transition-all hover:shadow-2xl hover:shadow-gold/30 hover:scale-105"
           >
-            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="w-6 h-6 mr-2" />
-              Agendar pelo WhatsApp
-            </a>
+            <MessageCircle className="w-6 h-6 mr-2" />
+            Agendar Consulta
           </Button>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-white/40 text-sm font-sans pt-4">

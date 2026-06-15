@@ -1,10 +1,11 @@
-import { WHATSAPP_URL } from "@/lib/constants";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, MapPin } from "lucide-react";
 import drLeoHero from "@/assets/dr-leo-hero.png";
+import { useConsultationModal } from "@/hooks/use-consultation-modal";
 
 const HeroSection = () => {
+  const { openModal } = useConsultationModal();
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-navy-dark">
       {/* Background gradient overlay */}
@@ -31,14 +32,12 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button
-                asChild
                 size="lg"
+                onClick={openModal}
                 className="bg-gold hover:bg-gold-dark text-navy-dark font-semibold font-sans text-base px-8 py-6 rounded-full shadow-lg shadow-gold/20 transition-all hover:shadow-xl hover:shadow-gold/30"
               >
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  Agende sua Consulta
-                </a>
+                <MessageCircle className="w-5 h-5 mr-2" />
+                Agende sua Consulta
               </Button>
             </div>
 
