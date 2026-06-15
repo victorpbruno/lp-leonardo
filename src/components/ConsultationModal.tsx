@@ -21,7 +21,7 @@ const painOptions: PainOption[] = [
     label: "Emagrecimento saudável",
     title: "Seu emagrecimento merece um plano personalizado",
     paragraphs: [
-      "Dietas restritivas que falham, peso que sempre volta, frustração com a balança... O emagrecimento saudável é mais do que perder peso — é equilibrar metabolismo, hormônios e hábitos.",
+      "Dietas restritivas que falham, peso que sempre volta, frustração com a balança... O emagrecimento saudável é mais do que perder peso. É equilibrar metabolismo, hormônios e hábitos.",
       "Com avaliação nutrológica completa, é possível identificar a causa real do ganho de peso e construir um protocolo individualizado, tratando inflamações, regulando o apetite e protegendo sua massa muscular.",
     ],
     highlight: "Emagrecer com saúde é cuidar do seu corpo por dentro também.",
@@ -32,7 +32,7 @@ const painOptions: PainOption[] = [
     title: "Seu treino merece resultado de verdade",
     paragraphs: [
       "Treinos que não rendem, recuperação lenta, platôs frustrantes... A nutrologia esportiva potencializa seus resultados com estratégias baseadas em ciência.",
-      "Com avaliação completa, é possível otimizar sua composição corporal, melhorar a recuperação muscular e elevar sua performance — seja você atleta ou praticante recreativo.",
+      "Com avaliação completa, é possível otimizar sua composição corporal, melhorar a recuperação muscular e elevar sua performance, seja você atleta ou praticante recreativo.",
     ],
     highlight: "Performance é nutrição, recuperação e estratégia caminhando juntas.",
   },
@@ -41,17 +41,17 @@ const painOptions: PainOption[] = [
     label: "Cansaço e falta de energia",
     title: "Sua disposição merece um cuidado especializado",
     paragraphs: [
-      "Acordar cansado, perder o foco no meio do dia, sentir o corpo pesado... Cansaço crônico raramente é só estresse — pode ser deficiência nutricional, alteração hormonal ou metabólica.",
+      "Acordar cansado, perder o foco no meio do dia, sentir o corpo pesado... Cansaço crônico raramente é só estresse. Pode ser deficiência nutricional, alteração hormonal ou metabólica.",
       "Com investigação nutrológica completa, é possível identificar a causa real do cansaço e construir um plano para recuperar sua energia e disposição.",
     ],
-    highlight: "Energia é resultado de equilíbrio — e equilíbrio se constrói.",
+    highlight: "Energia é resultado de equilíbrio, e equilíbrio se constrói.",
   },
   {
     id: "compulsao",
     label: "Compulsão alimentar e ansiedade",
     title: "Sua relação com a comida merece um cuidado humanizado",
     paragraphs: [
-      "Ataques à geladeira, fome emocional, culpa depois de comer... A compulsão alimentar tem origens biológicas e emocionais — e tem tratamento.",
+      "Ataques à geladeira, fome emocional, culpa depois de comer... A compulsão alimentar tem origens biológicas e emocionais, e tem tratamento.",
       "Com uma abordagem nutrológica integrativa, é possível regular os hormônios da fome, estabilizar o humor pela alimentação e construir uma relação saudável com a comida.",
     ],
     highlight: "Cuidar da alimentação é cuidar também da sua mente.",
@@ -64,14 +64,14 @@ const painOptions: PainOption[] = [
       "Queda de libido, ganho de peso sem explicação, alterações de humor, sono ruim... Desequilíbrios hormonais afetam todos os aspectos da sua saúde.",
       "Com avaliação nutrológica completa, é possível investigar a fundo seu perfil hormonal e propor um tratamento individualizado para restaurar seu equilíbrio com segurança.",
     ],
-    highlight: "Hormônios em equilíbrio mudam tudo — do humor à performance.",
+    highlight: "Hormônios em equilíbrio mudam tudo, do humor à performance.",
   },
   {
     id: "longevidade",
     label: "Longevidade e qualidade de vida",
     title: "Sua longevidade merece um cuidado preventivo",
     paragraphs: [
-      "Viver mais é bom — mas viver mais e bem é o que importa. A medicina do estilo de vida e a nutrologia preventiva são pilares de uma longevidade saudável.",
+      "Viver mais é bom, mas viver mais e bem é o que importa. A medicina do estilo de vida e a nutrologia preventiva são pilares de uma longevidade saudável.",
       "Com avaliação completa, é possível identificar riscos futuros, otimizar marcadores de saúde e construir um protocolo para envelhecer com energia, lucidez e autonomia.",
     ],
     highlight: "Envelhecer com saúde é uma escolha que se faz hoje.",
@@ -89,7 +89,7 @@ const painOptions: PainOption[] = [
 ];
 
 const credentials = [
-  { icon: Stethoscope, text: "Médico Nutrólogo — CRM 111027" },
+  { icon: Stethoscope, text: "Médico Nutrólogo, CRM 111027" },
   { icon: BadgeCheck, text: "Formação de excelência em nutrologia" },
   { icon: HeartPulse, text: "Foco em emagrecimento, performance e longevidade" },
   { icon: Microscope, text: "Tratamento baseado em evidências científicas" },

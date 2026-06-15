@@ -31,11 +31,11 @@ const AboutSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               Dr. Leo Anhesini
             </h2>
-            <p className="text-white/50 font-sans text-sm">CRMSP 111027 · RQE 87517 · 148616</p>
+            <p className="text-white/50 font-sans text-sm">CRMSP 111027 | RQE 87517 | 148616</p>
 
             <p className="text-white/70 font-sans text-lg leading-relaxed">
               Médico nutrólogo dedicado a transformar a saúde dos pacientes através de uma abordagem personalizada, 
-              integrativa e baseada nas mais recentes evidências científicas. Cada paciente é único — e o tratamento 
+              integrativa e baseada nas mais recentes evidências científicas. Cada paciente é único, e o tratamento
               também deve ser.
             </p>
 
