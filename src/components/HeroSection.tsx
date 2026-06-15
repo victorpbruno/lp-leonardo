@@ -54,6 +54,7 @@ const HeroSection = () => {
               <div className="absolute bottom-6 left-6 right-6 z-20">
                 <p className="text-gold font-serif text-xl font-semibold">Dr. Leo Anhesini</p>
                 <p className="text-white/60 text-sm font-sans">Médico Nutrólogo</p>
+                <p className="text-white/60 text-sm font-sans">Médico do Esporte</p>
               </div>
             </div>
           </div>
