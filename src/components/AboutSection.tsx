@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Award, Heart, Microscope } from "lucide-react";
+import { MessageCircle, Award, Heart, Microscope, ShieldCheck } from "lucide-react";
 import drLeoAbout from "@/assets/dr-leo-about.png";
 import { useConsultationModal } from "@/hooks/use-consultation-modal";
 
@@ -7,6 +7,7 @@ const highlights = [
   { icon: Award, label: "Formação de excelência" },
   { icon: Heart, label: "Atendimento humanizado" },
   { icon: Microscope, label: "Baseado em evidências" },
+  { icon: ShieldCheck, label: "Segurança e Resultado" },
 ];
 
 const AboutSection = () => {
@@ -30,7 +31,7 @@ const AboutSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white">
               Dr. Leo Anhesini
             </h2>
-            <p className="text-white/50 font-sans text-sm">CRM/RQE — A informar</p>
+            <p className="text-white/50 font-sans text-sm">CRMSP 111027 · RQE 87517 · 148616</p>
 
             <p className="text-white/70 font-sans text-lg leading-relaxed">
               Médico nutrólogo dedicado a transformar a saúde dos pacientes através de uma abordagem personalizada, 

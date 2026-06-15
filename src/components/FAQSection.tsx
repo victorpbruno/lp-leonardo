@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "Aceita convênio?",
-    answer: "Entre em contato pelo WhatsApp para verificar os convênios aceitos e condições de atendimento particular.",
+    answer: "Entre em contato pelo WhatsApp para verificar o que tem cobertura pelo convênio e as condições dos planos de acompanhamento particular.",
   },
 ];
 

@@ -3,7 +3,7 @@ import { UserCheck, Clock, RefreshCw, FlaskConical, MapPin } from "lucide-react"
 const differentials = [
   { icon: UserCheck, title: "Atendimento personalizado", desc: "Cada paciente recebe um plano único, pensado para sua realidade." },
   { icon: Clock, title: "Consulta detalhada", desc: "Sem pressa. Tempo para ouvir, entender e investigar." },
-  { icon: RefreshCw, title: "Acompanhamento contínuo", desc: "Retornos regulares para ajustar e otimizar resultados." },
+  { icon: RefreshCw, title: "Acompanhamento contínuo", desc: "Planos que se organizam e entregam resultado." },
   { icon: FlaskConical, title: "Baseado em ciência", desc: "Condutas fundamentadas em evidências científicas atualizadas." },
   { icon: MapPin, title: "Localização acessível", desc: "Consultório em Araraquara/SP com fácil acesso e estacionamento." },
 ];
